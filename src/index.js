@@ -10,8 +10,7 @@ if (matrix !== undefined){
   for(i=0;i<matrix.length;i++){
 
       row = matrix[i];
-      //console.log(row);
-
+      
       if (ord){
         for(j=0;j<row.length;j++){
           rez.push(row[j]);
